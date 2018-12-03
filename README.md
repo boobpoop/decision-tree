@@ -1,5 +1,7 @@
-# 程序流图
-![program_procedure](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/20181128215038.png)
-# 结果
-![wq](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/20181128213924.png)
+# flow graph
+![program_procedure](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/image/flow_graph.png)
+pay attention: recursion was realized in red boxs
+
+# output
+![wq](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/image/output.png)
 
