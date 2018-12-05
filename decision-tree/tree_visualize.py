@@ -57,7 +57,7 @@ def plot_tree(my_tree, parent_point, content):
     plot_tree.LOC_LEAF_Y += 1 / plot_tree.TOTAL_DEPTH
 
 def create_plot(in_tree):
-    plt.switch_backend("PDF")
+    plt.switch_backend("agg")
     fig = plt.figure(1, facecolor = "white")
     fig.clf()
     hide_axis = dict(xticks = [], yticks = [])  
@@ -67,7 +67,7 @@ def create_plot(in_tree):
     plot_tree.LOC_LEAF_Y = 1.0
     create_plot.ax1 = plt.subplot(111, frameon = False, **hide_axis)
     plot_tree(in_tree, (0.5, 1.0), '')
-    plt.savefig("_1_.pdf")
+    plt.savefig("tree_visualize.png")
 
 if __name__ == "__main__":
     my_tree = decision_tree.get_tree_dict()
