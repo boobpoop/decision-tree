@@ -1,7 +1,6 @@
-# flow graph
-![program_procedure](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/image/flow_graph.png)
-pay attention: recursion was realized in red boxs
+# flow chart
+![program_procedure](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/image/decision_tree.png)
 
 # output
-![wq](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/image/output.png)
+![wq](https://github.com/boobpoop/decision_tree-visualize/blob/master/decision-tree/image/tree_visualize.png)
 
